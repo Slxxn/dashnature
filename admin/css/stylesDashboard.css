@@ -129,7 +129,7 @@ justify-content: center;
 
 
 .sidebar .image-text img {
-  width: 40px;
+  width: 80px;
   border-radius: 6px;
 
 }
@@ -372,5 +372,50 @@ body.dark .switch::before {
 
 }
 
-/*section personnnalisation*/
+/*section personnnalisation table*/
 
+.styled-table {
+  border-collapse: collapse;
+  margin: 50px;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #49c249;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+ 
+    padding: 12px 15px;
+    color:#5c5c5c ;
+}
+
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #38bd38;
+}
+
+/*dernier element du tableau en couleur*/
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #0a0a0a;
+} 
+
+.sizeIconXl {
+  font-size: 1.4rem;
+  color: var(--text-color);
+}

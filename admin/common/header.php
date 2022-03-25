@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- ************* CSS **************** -->
-    <link rel="stylesheet" href="stylesDashboard.css">
+    <link rel="stylesheet" href="./css/stylesDashboard.css">
 
     <!-- **********Boxicons CSS ************** -->
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
 
 
-    <title>Dasboard Sidebar Menu  Dark-Light Mode</title>
+    <title>DashNature Dashboard</title>
 </head>
 <body>
     <nav class="sidebar">
@@ -24,8 +24,8 @@
 
 
               <div class="text header-text">
-                   <span class="name">CodingLab</span>
-                   <span class="profession">web developer</span>
+                   <span class="name">DashNature</span>
+                   <span class="profession">Administrateur</span>
                </div>
            </div> 
            <i class="bx bx-chevron-right toggle"></i>
@@ -39,44 +39,32 @@
                 <li class="search-box">
                     <i class="bx bx-search icon"></i>
                     <input type="search" placeholder="Search...">
+                
                 </li>
                 <ul class="menu-links">
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="indexDashboard.php">
                             <i class="bx bx-home-alt icon" ></i>
-                            <span class="text nav-text">Dashboard</span>
+                            <span class="text nav-text">Liste</span>
                         </a>
                     </li>
+                    
                     <li class="nav-link">
-                        <a href="#">
-                            <i class="bx bx-bar-chart-alt-2 icon" ></i>
-                            <span class="text nav-text">Revenue</span>
+                        <a href="indexDashboard.php?mod=editer">
+                        <i class="bx bx-edit icon"></i>
+                            <span class="text nav-text">Editer</span>
                         </a>
                     </li>
+
                     <li class="nav-link">
-                        <a href="#">
-                            <i class="bx bx-bell icon" ></i>
-                            <span class="text nav-text">Notifications</span>
+                        <a href="indexDashboard.php?mod=ajouter">
+                        <i class="bx bx-edit icon"></i>
+                            <span class="text nav-text">Ajouter</span>
                         </a>
                     </li>
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class="bx bx-pie-chart-alt icon" ></i>
-                            <span class="text nav-text">Analytics</span>
-                        </a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class="bx bx-heart icon" ></i>
-                            <span class="text nav-text">Likes</span>
-                        </a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class="bx bx-wallet icon" ></i>
-                            <span class="text nav-text">Portefeuille</span>
-                        </a>
-                    </li>
+                  
+                 
+                
                 </ul> 
             </div>
             
@@ -84,7 +72,7 @@
                 <li class="">
                     <a href="#">
                         <i class="bx bx-log-out icon" ></i>
-                        <span class="text nav-text">Logout</span>
+                        <span class="text nav-text">Déconnexion</span>
                     </a>
                 </li>
 
@@ -103,19 +91,3 @@
             </div>
         </div>
     </nav>
-
-    <section class="home">
-        <div class="text">Dasboard</div>
-                                 <div class="listeplante">
-                                     <div class="box">
-                                        <h3>plante 1</h3>
-                                        <p>Paragraphe descriptif</p>
-                                     </div>
-                                 </div>
-
-    <script src="script.js"></script>
-
-</body>
-
-</html>
-
